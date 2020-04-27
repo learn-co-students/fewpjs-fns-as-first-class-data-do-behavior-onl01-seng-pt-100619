@@ -26,10 +26,10 @@ function greet(timeString){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(string){
- let greeting = document.getElementById("greeting")
- greeting.innerHTML = string
+//  let greeting = document.getElementById("greeting")
+//  greeting.innerHTML = string
 //  let text = document.createTextNode(string)
-//  greeting.appendChild(text)
+//  greeting.appendChild(text) // add createTextNode to make a text that can be added to our element and appendChild this text to our element
 }
 
 // let newHeader = document.createElement("h1");
