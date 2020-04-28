@@ -1,6 +1,6 @@
 /* Given Code, don't edit */
 
-document.querySelector("input type=[button]").addEventListener("click", handleClick);
+document.querySelector("input[type='button']").addEventListener("click", handleClick);
 
 function handleClick(e) {
   const timeString = document.getElementById('time').value
